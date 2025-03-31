@@ -1,4 +1,4 @@
-
+import '../css/MovieCard.css'
 export default function MovieCard({movie}){
 
      function onFaveClick(){
@@ -9,7 +9,7 @@ export default function MovieCard({movie}){
             <div className="movie-poster">
                 <img src={movie.poster} alt={movie.title}/>
                 <div className="movie-overlay">
-                    <button className="fave-btn" onClick={ onFaveClick}>♡</button>
+                    <button className="favorite-btn" onClick={ onFaveClick}>♡</button>
 
                 </div>
             </div>

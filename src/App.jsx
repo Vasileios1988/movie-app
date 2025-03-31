@@ -1,5 +1,5 @@
 
-import './App.css'
+import './css/App.css'
 import MovieCard from './components/MovieCard.jsx'
 import Home from './pages/Home.jsx'
 import {Routes, Route} from "react-router";
